@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <button class="menu-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <a href="/" class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+      </a>
+    </div>
+  
+    <div class="main-menu">
+      <a href="#"><i class="fas fa-home"></i> Головна</a>
+      <a href="#"><i class="fas fa-clapperboard"></i> Shorts</a>
+      <a href="#"><i class="fas fa-bell"></i> Підписки</a>
+      <a href="#"><i class="fas fa-music"></i> YouTube Music</a>
+    </div>
+  
+    <div class="separator"></div> 
+    
+    <div class="secondary-menu">
+      <a href="#"><i class="fas fa-user-circle"></i> Мій канал</a>
+      <a href="#"><i class="fas fa-history"></i> Історія</a>
+      <a href="#"><i class="fas fa-list-ul"></i> Плейлісти</a>
+      <a href="#"><i class="fas fa-video"></i> Мої відео</a>
+      <a href="#"><i class="fas fa-clock"></i> Дивитсь потім</a>
+      <a href="#"><i class="fas fa-thumbs-up"></i> Лайкнуті відео</a>
+    </div>
+  
+    <div class="separator"></div>
+  
+    <div class="subscriptions-menu">
+      <span class="menu-section-title">Підписки</span>
+      <div id="items" class="subscriptions-list">
+        <a href="/@" class="subscription-item">
+          <img src="https://yt3.googleusercontent.com/oKexgOgva1BtrN_zO5WMNEX4V81_VClcHyBkAdsQC1KjLWYIfVGDYxUbiRKVbYF7mcXrv9Xoig=s176-c-k-c0x00ffffff-no-rj-mo" alt="ТСН" />
+          <span>playboi carti</span>
+        </a>
+        <a href="/@" class="subscription-item">
+          <img src="https://yt3.googleusercontent.com/0FQlYEhUNYoxpA0rggIHaIdevcpyceMU5HGEeTFL5YSYMLKAJaNwi1tzUYU5ahfzCyh9Wfy1=s160-c-k-c0x00ffffff-no-rj" alt="Телеканал 1+1" />
+          <span>BigGucciSosa</span>
+        </a>
+        <a href="/@" class="subscription-item">
+          <img src="https://yt3.ggpht.com/ytc/AIdro_l8P37QJ2uPW9N0vuEFTA89HEluCKlB5BxQx9XUNQj5-c4=s88-c-k-c0x00ffffff-no-rj" alt="Maras Shakur" />
+          <span>Papizich</span>
+        </a>
+        <a href="/@" class="subscription-item">
+          <img src="https://yt3.googleusercontent.com/ytc/AIdro_kRKIQv-e3kkwKTyyb7tjebiV7mQsyEKtvnKJJEuIKj24g=s176-c-k-c0x00ffffff-no-rj-mo" alt="BORGE HOKAGE" />
+          <span>Arthas</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-left: 240px; width: calc(100% - 240px);">
+    <div class="header">
+      <div class="header-start">
+      </div>
+      <div class="header-center">
+        <form class="search-form">
+          <div class="input-container">
+            <input type="text" placeholder="Введите запрос" class="search-input">
+            <i class="fas fa-keyboard input-icon"></i>
+          </div>
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="voice-search-button">
+          <i class="fas fa-microphone"></i>
+        </button>
+      </div>
+      <div class="header-end">
+        <button class="create-button">
+          <i class="fas fa-plus"></i>
+        </button>
+        <button class="notifications-button">
+          <i class="fas fa-bell"></i>
+        </button>
+        <img src="https://yt3.ggpht.com/yti/ANjgQV9S678mAPjv_6BiuKaUeOMCGbXKB51jIkddFEAH2I9g=s88-c-k-c0x00ffffff-no-rj" alt="Avatar" class="avatar">
+      </div>
+    </div>
+    <div class="scroll-menu">
+        <button class="scroll-btn active">Все</button>
+        <button class="scroll-btn">Відеогри</button>
+        <button class="scroll-btn">Музика</button>
+        <button class="scroll-btn">Джем</button>
+        <button class="scroll-btn">Grand Theft Auto</button>
+        <button class="scroll-btn">В прямому ефірі</button>
+        <button class="scroll-btn">Математика</button>
+        <button class="scroll-btn">Екшн і пригоди</button>
+        <button class="scroll-btn">Кулінарія</button>
+        <button class="scroll-btn">Недавно опубліковані</button>
+        <button class="scroll-btn">Переглянуті</button>
+        <button class="scroll-btn">Новинка</button>
+      </div>
+    <div class="video-cards">
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+            <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+            <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+            <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+            <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+      <div class="video-card">
+        <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw" alt="Video thumbnail" class="video-thumbnail">
+        <div class="video-info">
+          <img src="https://yt3.ggpht.com/m4TqUF9-aLUrkhB6msGZHxGQKyd9UBPGO4UWryu0-amKo-U1JltUpnivXrsBYtD_MvJCQnbCI74=s68-c-k-c0x00ffffff-no-rj" alt="Avatar" class="channel-avatar">
+          <div>
+            <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+            <p class="channel-name">Rick Astley</p>
+                <p class="video-details">1,5 млрд переглядів • 15 років тому</p>
+          </div>
+          <button class="more-options"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
